@@ -42,16 +42,5 @@ Make sure you have installed:
 ```bash
 npm install
 npx playwright install
+ npx playwright test saucedemo.spec.js --headed
 
-## Setup Instructions
-
-npx playwright test --headed
-├── tests/                 # Playwright test files
-├── test-saucedemo/        # Specific test scripts for Sauce Demo
-├── e2e/                   # Optional E2E folder
-├── package.json           # Node.js project config
-├── playwright.config.js   # Playwright configuration
-└── .gitignore
-
-git clone https://github.com/mahadishanto082/SauceDemo-BM.git
-cd SauceDemo-BM
